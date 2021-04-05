@@ -7,27 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37F4567325F6E05B00CFE6D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4567225F6E05B00CFE6D8 /* AppDelegate.swift */; };
-		37F4567525F6E05B00CFE6D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4567425F6E05B00CFE6D8 /* SceneDelegate.swift */; };
-		37F4567725F6E05B00CFE6D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4567625F6E05B00CFE6D8 /* ContentView.swift */; };
-		37F4567925F6E05C00CFE6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F4567825F6E05C00CFE6D8 /* Assets.xcassets */; };
-		37F4567C25F6E05C00CFE6D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F4567B25F6E05C00CFE6D8 /* Preview Assets.xcassets */; };
-		37F4567F25F6E05C00CFE6D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F4567D25F6E05C00CFE6D8 /* LaunchScreen.storyboard */; };
+		37CB62AE261B96F90024CE13 /* TemaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CB62AD261B96F90024CE13 /* TemaViewModel.swift */; };
+		37CB62B1261B9EA20024CE13 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CB62B0261B9EA20024CE13 /* Enum.swift */; };
+		EB0BEE902600173B00DB4F20 /* JogoMemoriaEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0BEE8F2600173B00DB4F20 /* JogoMemoriaEmoji.swift */; };
+		EB0BEE9326001E8400DB4F20 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0BEE9226001E8400DB4F20 /* Array+Identifiable.swift */; };
+		EB0BEE96260021F700DB4F20 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0BEE95260021F700DB4F20 /* Array+Only.swift */; };
+		EB0BEE992600392100DB4F20 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0BEE982600392100DB4F20 /* Grid.swift */; };
+		EB0BEE9C260039DE00DB4F20 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0BEE9B260039DE00DB4F20 /* GridLayout.swift */; };
+		EB5FADB525F6DF760026BBFF /* MemoriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FADB425F6DF760026BBFF /* MemoriaApp.swift */; };
+		EB5FADB725F6DF760026BBFF /* JogoMemoriaEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FADB625F6DF760026BBFF /* JogoMemoriaEmojiView.swift */; };
+		EB5FADB925F6DF790026BBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5FADB825F6DF790026BBFF /* Assets.xcassets */; };
+		EB5FADBC25F6DF790026BBFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5FADBB25F6DF790026BBFF /* Preview Assets.xcassets */; };
+		EB5FADC525F705970026BBFF /* JogoMemoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FADC425F705970026BBFF /* JogoMemoria.swift */; };
+		EBE930EE261292430064A336 /* TemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE930ED261292430064A336 /* TemaView.swift */; };
+		EBEB258A26095B42005EEBD9 /* CartaModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEB258926095B42005EEBD9 /* CartaModifier.swift */; };
+		EBEB258D26096579005EEBD9 /* Cronometro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEB258C26096579005EEBD9 /* Cronometro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37F4566F25F6E05B00CFE6D8 /* Memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37F4567225F6E05B00CFE6D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37F4567425F6E05B00CFE6D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37F4567625F6E05B00CFE6D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		37F4567825F6E05C00CFE6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		37F4567B25F6E05C00CFE6D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		37F4567E25F6E05C00CFE6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		37F4568025F6E05C00CFE6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CB62AD261B96F90024CE13 /* TemaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemaViewModel.swift; sourceTree = "<group>"; };
+		37CB62B0261B9EA20024CE13 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		EB0BEE8F2600173B00DB4F20 /* JogoMemoriaEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaEmoji.swift; sourceTree = "<group>"; };
+		EB0BEE9226001E8400DB4F20 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		EB0BEE95260021F700DB4F20 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		EB0BEE982600392100DB4F20 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		EB0BEE9B260039DE00DB4F20 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		EB5FADB125F6DF760026BBFF /* Memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5FADB425F6DF760026BBFF /* MemoriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriaApp.swift; sourceTree = "<group>"; };
+		EB5FADB625F6DF760026BBFF /* JogoMemoriaEmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaEmojiView.swift; sourceTree = "<group>"; };
+		EB5FADB825F6DF790026BBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB5FADBB25F6DF790026BBFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB5FADBD25F6DF790026BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5FADC425F705970026BBFF /* JogoMemoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoria.swift; sourceTree = "<group>"; };
+		EBE930ED261292430064A336 /* TemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemaView.swift; sourceTree = "<group>"; };
+		EBEB258926095B42005EEBD9 /* CartaModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaModifier.swift; sourceTree = "<group>"; };
+		EBEB258C26096579005EEBD9 /* Cronometro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cronometro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37F4566C25F6E05B00CFE6D8 /* Frameworks */ = {
+		EB5FADAE25F6DF760026BBFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +55,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37F4566625F6E05B00CFE6D8 = {
+		EB5FADA825F6DF760026BBFF = {
 			isa = PBXGroup;
 			children = (
-				37F4567125F6E05B00CFE6D8 /* Memoria */,
-				37F4567025F6E05B00CFE6D8 /* Products */,
+				EB5FADB325F6DF760026BBFF /* Memoria */,
+				EB5FADB225F6DF760026BBFF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		37F4567025F6E05B00CFE6D8 /* Products */ = {
+		EB5FADB225F6DF760026BBFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37F4566F25F6E05B00CFE6D8 /* Memoria.app */,
+				EB5FADB125F6DF760026BBFF /* Memoria.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37F4567125F6E05B00CFE6D8 /* Memoria */ = {
+		EB5FADB325F6DF760026BBFF /* Memoria */ = {
 			isa = PBXGroup;
 			children = (
-				37F4567225F6E05B00CFE6D8 /* AppDelegate.swift */,
-				37F4567425F6E05B00CFE6D8 /* SceneDelegate.swift */,
-				37F4567625F6E05B00CFE6D8 /* ContentView.swift */,
-				37F4567825F6E05C00CFE6D8 /* Assets.xcassets */,
-				37F4567D25F6E05C00CFE6D8 /* LaunchScreen.storyboard */,
-				37F4568025F6E05C00CFE6D8 /* Info.plist */,
-				37F4567A25F6E05C00CFE6D8 /* Preview Content */,
+				EB5FADB425F6DF760026BBFF /* MemoriaApp.swift */,
+				EB5FADB625F6DF760026BBFF /* JogoMemoriaEmojiView.swift */,
+				EB5FADB825F6DF790026BBFF /* Assets.xcassets */,
+				EB5FADBD25F6DF790026BBFF /* Info.plist */,
+				EB5FADBA25F6DF790026BBFF /* Preview Content */,
+				EB5FADC425F705970026BBFF /* JogoMemoria.swift */,
+				EB0BEE8F2600173B00DB4F20 /* JogoMemoriaEmoji.swift */,
+				EB0BEE9226001E8400DB4F20 /* Array+Identifiable.swift */,
+				EB0BEE95260021F700DB4F20 /* Array+Only.swift */,
+				EB0BEE982600392100DB4F20 /* Grid.swift */,
+				EB0BEE9B260039DE00DB4F20 /* GridLayout.swift */,
+				EBEB258926095B42005EEBD9 /* CartaModifier.swift */,
+				EBEB258C26096579005EEBD9 /* Cronometro.swift */,
+				EBE930ED261292430064A336 /* TemaView.swift */,
+				37CB62AD261B96F90024CE13 /* TemaViewModel.swift */,
+				37CB62B0261B9EA20024CE13 /* Enum.swift */,
 			);
 			path = Memoria;
 			sourceTree = "<group>";
 		};
-		37F4567A25F6E05C00CFE6D8 /* Preview Content */ = {
+		EB5FADBA25F6DF790026BBFF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				37F4567B25F6E05C00CFE6D8 /* Preview Assets.xcassets */,
+				EB5FADBB25F6DF790026BBFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,13 +105,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37F4566E25F6E05B00CFE6D8 /* Memoria */ = {
+		EB5FADB025F6DF760026BBFF /* Memoria */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37F4568325F6E05C00CFE6D8 /* Build configuration list for PBXNativeTarget "Memoria" */;
+			buildConfigurationList = EB5FADC025F6DF790026BBFF /* Build configuration list for PBXNativeTarget "Memoria" */;
 			buildPhases = (
-				37F4566B25F6E05B00CFE6D8 /* Sources */,
-				37F4566C25F6E05B00CFE6D8 /* Frameworks */,
-				37F4566D25F6E05B00CFE6D8 /* Resources */,
+				EB5FADAD25F6DF760026BBFF /* Sources */,
+				EB5FADAE25F6DF760026BBFF /* Frameworks */,
+				EB5FADAF25F6DF760026BBFF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,24 +119,24 @@
 			);
 			name = Memoria;
 			productName = Memoria;
-			productReference = 37F4566F25F6E05B00CFE6D8 /* Memoria.app */;
+			productReference = EB5FADB125F6DF760026BBFF /* Memoria.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		37F4566725F6E05B00CFE6D8 /* Project object */ = {
+		EB5FADA925F6DF760026BBFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					37F4566E25F6E05B00CFE6D8 = {
+					EB5FADB025F6DF760026BBFF = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 37F4566A25F6E05B00CFE6D8 /* Build configuration list for PBXProject "Memoria" */;
+			buildConfigurationList = EB5FADAC25F6DF760026BBFF /* Build configuration list for PBXProject "Memoria" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,55 +144,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 37F4566625F6E05B00CFE6D8;
-			productRefGroup = 37F4567025F6E05B00CFE6D8 /* Products */;
+			mainGroup = EB5FADA825F6DF760026BBFF;
+			productRefGroup = EB5FADB225F6DF760026BBFF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37F4566E25F6E05B00CFE6D8 /* Memoria */,
+				EB5FADB025F6DF760026BBFF /* Memoria */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37F4566D25F6E05B00CFE6D8 /* Resources */ = {
+		EB5FADAF25F6DF760026BBFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37F4567F25F6E05C00CFE6D8 /* LaunchScreen.storyboard in Resources */,
-				37F4567C25F6E05C00CFE6D8 /* Preview Assets.xcassets in Resources */,
-				37F4567925F6E05C00CFE6D8 /* Assets.xcassets in Resources */,
+				EB5FADBC25F6DF790026BBFF /* Preview Assets.xcassets in Resources */,
+				EB5FADB925F6DF790026BBFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37F4566B25F6E05B00CFE6D8 /* Sources */ = {
+		EB5FADAD25F6DF760026BBFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37F4567325F6E05B00CFE6D8 /* AppDelegate.swift in Sources */,
-				37F4567525F6E05B00CFE6D8 /* SceneDelegate.swift in Sources */,
-				37F4567725F6E05B00CFE6D8 /* ContentView.swift in Sources */,
+				EB0BEE9326001E8400DB4F20 /* Array+Identifiable.swift in Sources */,
+				EBEB258D26096579005EEBD9 /* Cronometro.swift in Sources */,
+				EB5FADB725F6DF760026BBFF /* JogoMemoriaEmojiView.swift in Sources */,
+				EB5FADC525F705970026BBFF /* JogoMemoria.swift in Sources */,
+				EB0BEE96260021F700DB4F20 /* Array+Only.swift in Sources */,
+				37CB62AE261B96F90024CE13 /* TemaViewModel.swift in Sources */,
+				EBE930EE261292430064A336 /* TemaView.swift in Sources */,
+				37CB62B1261B9EA20024CE13 /* Enum.swift in Sources */,
+				EB0BEE902600173B00DB4F20 /* JogoMemoriaEmoji.swift in Sources */,
+				EB0BEE992600392100DB4F20 /* Grid.swift in Sources */,
+				EB5FADB525F6DF760026BBFF /* MemoriaApp.swift in Sources */,
+				EB0BEE9C260039DE00DB4F20 /* GridLayout.swift in Sources */,
+				EBEB258A26095B42005EEBD9 /* CartaModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		37F4567D25F6E05C00CFE6D8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37F4567E25F6E05C00CFE6D8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		37F4568125F6E05C00CFE6D8 /* Debug */ = {
+		EB5FADBE25F6DF790026BBFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		37F4568225F6E05C00CFE6D8 /* Release */ = {
+		EB5FADBF25F6DF790026BBFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,42 +306,42 @@
 			};
 			name = Release;
 		};
-		37F4568425F6E05C00CFE6D8 /* Debug */ = {
+		EB5FADC125F6DF790026BBFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memoria/Preview Content\"";
-				DEVELOPMENT_TEAM = JCM66D4VT7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memoria/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MMS.Memoria;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.iesb.2019-2.Memoria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		37F4568525F6E05C00CFE6D8 /* Release */ = {
+		EB5FADC225F6DF790026BBFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memoria/Preview Content\"";
-				DEVELOPMENT_TEAM = JCM66D4VT7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memoria/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MMS.Memoria;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.iesb.2019-2.Memoria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,25 +351,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37F4566A25F6E05B00CFE6D8 /* Build configuration list for PBXProject "Memoria" */ = {
+		EB5FADAC25F6DF760026BBFF /* Build configuration list for PBXProject "Memoria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37F4568125F6E05C00CFE6D8 /* Debug */,
-				37F4568225F6E05C00CFE6D8 /* Release */,
+				EB5FADBE25F6DF790026BBFF /* Debug */,
+				EB5FADBF25F6DF790026BBFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37F4568325F6E05C00CFE6D8 /* Build configuration list for PBXNativeTarget "Memoria" */ = {
+		EB5FADC025F6DF790026BBFF /* Build configuration list for PBXNativeTarget "Memoria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37F4568425F6E05C00CFE6D8 /* Debug */,
-				37F4568525F6E05C00CFE6D8 /* Release */,
+				EB5FADC125F6DF790026BBFF /* Debug */,
+				EB5FADC225F6DF790026BBFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 37F4566725F6E05B00CFE6D8 /* Project object */;
+	rootObject = EB5FADA925F6DF760026BBFF /* Project object */;
 }
